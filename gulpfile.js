@@ -102,5 +102,5 @@ gulp.task("clean", function () {
   return del("build");
 });
 
-gulp.task("build", gulp.series("clean", gulp.parallel("style", "copy","sprite", "html", "scripts")
-));
+gulp.task("build", gulp.series("clean", "style", "copy","sprite", "html", "scripts")
+);

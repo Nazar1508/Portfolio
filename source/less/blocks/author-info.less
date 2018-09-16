@@ -1,0 +1,47 @@
+.author-info {
+  position: fixed;
+  top: 30%;
+  left: 8%;
+  width: 30%;
+}
+
+.author-info__salute {
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.author-info__name {
+  display: block;
+  margin-top: 10px;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.author-info__trade {
+  position: relative;
+  display: block;
+  width: 75%;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: -9px;
+    left: 102%;
+    background-image: url("../img/icon/code.svg");
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: 82%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .author-info {
+    width: 420px;
+  }
+}
