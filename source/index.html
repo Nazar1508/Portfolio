@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preload" href="fonts/poppins-v5-latin-300.woff2" as="font" crossorigin>
   <link rel="preload" href="fonts/poppins-v5-latin-regular.woff2" as="font" crossorigin>
   <link rel="preload" href="fonts/poppins-v5-latin-700.woff2" as="font" crossorigin>
+  <link rel="stylesheet" href="libr/css/normalize.min.css">
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Document</title>
+  <title>Portfolio</title>
 </head>
 <body>
   <div style="display: none;">
@@ -16,43 +17,83 @@
   </div>
   <div class="page-wrapper">
     <header class="page-header">
-      <div class="author-info">
-        <span class="author-info__salute">
-          Hi, I'm
-        </span>
-        <strong class="author-info__name">
-          NAZAR KOLTSUN
-        </strong>
-        <span class="author-info__trade">
-          FRONT-END DEVELOPER
-        </span>
-        <ul class="social">
-          <li class="social__item">
-            <a href="https://www.instagram.com/nazarkoltsun/?hl=ru" class="social__link">
-              <svg class="social__icon" width="35" height="35">
-                <use xlink:href="#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://www.facebook.com/profile.php?id=100002283994544" class="social__link">
-              <svg class="social__icon" width="35" height="40">
-                <use xlink:href="#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://github.com/Nazar1508" class="social__link">
-              <svg class="social__icon" width="35" height="35">
-                <use xlink:href="#icon-github"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <div class="page-header__wrapper">
+        <div class="author-info">
+          <span class="author-info__salute">
+            Hi, I'm
+          </span>
+          <strong class="author-info__name">
+            NAZAR KOLTSUN
+          </strong>
+          <span class="author-info__trade">
+            FRONT-END DEVELOPER
+          </span>
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://www.instagram.com/nazarkoltsun/?hl=ru" class="social__link">
+                <span class="visually-hidden">Instagram</span>
+                <svg class="social__icon" width="35" height="35">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com/profile.php?id=100002283994544" class="social__link">
+                <span class="visually-hidden">Facebook</span>
+                <svg class="social__icon" width="35" height="40">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://github.com/Nazar1508" class="social__link">
+                <span class="visually-hidden">Github</span>
+                <svg class="social__icon" width="35" height="35">
+                  <use xlink:href="#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main class="page-main">
-
+      <section class="education">
+        <h2 class="education__title">Education</h2>
+        <p class="education__description">
+          <span class="education__text">Graduate</span>
+          <a href="https://htmlacademy.ru" class="education__link">
+            <span class="visually-hidden">HTMLacademy</span>
+            <svg class="education__icon" width="161" height="55">
+              <use xlink:href="#icon-htmlacademy"></use>
+            </svg>
+          </a>
+        </p>
+        <ul class="education__sertificats-list">
+          <li class="education__sertificats-item">
+            <a class="education__sertificats-link" href="https://assets.htmlacademy.ru/certificates/intensive/71/453065.pdf">
+              <picture>
+                <source type="image/webp" srcset="img/webp/sertificate2@1x.webp, img/webp/sertificate2@2x.webp 2x">
+                <img class="education__sertificats-image" src="img/sertificate2@1x.jpg" srcset="img/sertificate2@2x.jpg 2x" alt="sertificate">
+              </picture>
+              <p class="education__sertificats-text">
+                HTML & CSS, level 2
+              </p>
+            </a>
+          </li>
+          <li class="education__sertificats-item">
+            <a class="education__sertificats-link" href="https://assets.htmlacademy.ru/certificates/intensive/45/453065.pdf">
+              <picture>
+                <source type="image/webp" srcset="img/webp/sertificate1@1x.webp, img/webp/sertificate1@2x.webp 2x">
+                <img class="education__sertificats-image" src="img/sertificate1@1x.jpg" srcset="img/sertificate1@2x.jpg 2x" alt="sertificate">
+              </picture>
+              <p class="education__sertificats-text">
+                HTML & CSS, basic course
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
     <footer class="page-footer">
 
     </footer>
