@@ -1,0 +1,25 @@
+.my-practice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 280px;
+  padding: 15px 45px 15px 20px;
+  box-sizing: border-box;
+  background-color: #0c5b67;
+  border-radius: 15px;
+  box-shadow: 3px 5px 5px 0 #000000;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    width: 10px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+  }
+}
