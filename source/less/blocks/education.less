@@ -1,3 +1,7 @@
+.education {
+  padding-top: 120px;
+}
+
 .education__description {
   display: flex;
   align-items: center;
@@ -44,6 +48,7 @@
     text-decoration: underline;
   }
 }
+
 .education__sertificats-image {
   transition: 0.5s;
 
@@ -55,4 +60,18 @@
 .education__sertificats-text {
   margin: 0;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding-top: 100px;
+  }
+
+  .education__text {
+    font-size: 20px;
+  }
+
+  .education__sertificats-list {
+    margin-top: 26px;
+  }
 }
