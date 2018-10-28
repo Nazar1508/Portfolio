@@ -42,6 +42,7 @@
 }
 
 .portfolio__link {
+  pointer-events: none;
   display: block;
   width: 200px;
   margin-bottom: 25px;
@@ -53,6 +54,7 @@
   background-color: #f0ebeb;
   border-radius: 15px;
   transition: 0.5s;
+  cursor: pointer;
 
   &:hover {
     color: #ffffff;
@@ -62,6 +64,10 @@
   &:active {
     background-color: #969191;
   }
+}
+
+.portfolio__info:hover .portfolio__link {
+  pointer-events: all;
 }
 
 .portfolio__item:hover .portfolio__info {
@@ -112,5 +118,11 @@
   .portfolio__technology-list,
   .portfolio__link {
     margin-bottom: 21px;
+  }
+}
+
+@media (max-width: 475px) {
+  .portfolio__list {
+    padding-right: 0;
   }
 }
