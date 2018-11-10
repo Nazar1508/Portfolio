@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1919" height="4" viewBox="0 0 1919 4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4a4b4b;
+        stroke-width: 2px;
+        stroke-dasharray: 20 6;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="строчка_ниткой" data-name="строчка ниткой" class="cls-1" d="M0,3145.98H1920" transform="translate(0 -3144.97)"/>
+</svg>
