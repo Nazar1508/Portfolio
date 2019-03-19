@@ -1,0 +1,1 @@
+"use strict";!function(){var e=document.querySelector(".blog__buttons"),t=document.querySelector(".blog__item img"),o=t.offsetHeight,i=396-o;e.style.top=265-i/2+"px",window.addEventListener("resize",function(){o=t.offsetHeight,i=396-o,e.style.top=265-i/2+"px"})}();

@@ -1,0 +1,52 @@
+.call-icon, .call-big-icon, .facebook-icon, .googel-icon, .instagramm-big-icon, .instagramm-icon, .search-icon, .twitter-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.call-icon{
+	background-position: -5px -10px ;
+	width: 34px;
+	height: 33px;
+}
+
+.call-big-icon{
+	background-position: -50px -3px ;
+	width: 50px;
+	height: 47px;
+}
+
+.facebook-icon{
+	background-position: -123px -20px ;
+	width: 6px;
+	height: 14px;
+}
+
+.googel-icon{
+	background-position: -166px -17.000015258789062px ;
+	width: 16px;
+	height: 10px;
+}
+
+.instagramm-big-icon{
+	background-position: -207px -10px ;
+	width: 33px;
+	height: 33px;
+}
+
+.instagramm-icon{
+	background-position: -270px -19px ;
+	width: 13px;
+	height: 13px;
+}
+
+.search-icon{
+	background-position: -317px -20.000015258789062px ;
+	width: 15px;
+	height: 16px;
+}
+
+.twitter-icon{
+	background-position: -366px -17.000015258789062px ;
+	width: 12px;
+	height: 10px;
+}
+
